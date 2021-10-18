@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;700&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header flex">
+        <div class="icon">
+          <img class="home-icon" src="images/network.svg" alt="icon">
+          <p>lorem ipsum <br>the blog<span class="uppercase">p</span>ost</p>
+        </div>
+        <ul class="menu">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">recent posts</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+        <div id="admin">
+          <img class="user-icon" src="images/user.svg" alt="user-icon">
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="form-container">
+        <form id="new-post" action="" method="post">
+          <label for="title">Title:</label>
+          <input id="title" type="text" name="text-title" value="">
+          <label for="body">Body:</label>
+          <textarea id="body" name="text-body" rows="8" cols="80"></textarea>
+          <button id="submit-btn" type="submit" name="button">submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="scripts/main.js" charset="utf-8"></script>
+  </body>
+</html>
