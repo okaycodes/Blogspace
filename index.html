@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;700&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-header flex">
+        <div class="icon">
+          <img class="home-icon" src="images/network.svg" alt="icon">
+          <p>lorem ipsum <br>the blog<span class="uppercase">p</span>ost</p>
+        </div>
+        <ul class="menu">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">recent posts</a></li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+        <div id="admin">
+          <img class="user-icon" src="images/user.svg" alt="user-icon">
+        </div>
+      </div>
+    </header>
+    <main class="main-section container-main">
+      <div class="welcome">
+          <h1>the lorem ipsum blog post</h1>
+          <p>interacting with <span class="capitalize">API</span>s using
+            <span class="uppercase">get</span>and<span class="uppercase">post
+            </span> methods</p>
+      </div>
+      <section class="intro-section">
+        <div class="blog-intro container">
+            <div class="intro-text">
+              <h2>welcome to the blog</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+               cupidatat non proident, sunt in culpa qui officia deserunt mollit
+               anim id est laborum. <p>
+            </div>
+            <div class="about-us dark-bg">
+              <h2>about us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut</p>
+            </div>
+          </div>
+      </section>
+      <section class=" dark-bg">
+        <div class="recent-posts container">
+          <h2>recent posts</h2>
+          <div id="posts">
+          </div>
+        </div>
+      </section>
+
+      <section class = "form-section">
+        <div class="form-container">
+          <form id="new-post" action="" method="post">
+            <label for="title">Title:</label>
+            <input id="title" type="text" name="text-title" value="">
+            <label for="body">Body:</label>
+            <textarea id="body" name="text-body" rows="8" cols="80"></textarea>
+            <button id="submit-btn" type="submit" name="button">submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/main.js" charset="utf-8"></script>
+  </body>
+</html>
